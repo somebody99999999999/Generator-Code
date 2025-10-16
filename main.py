@@ -11,5 +11,3 @@ if input == y:
     print(fake.state())
     print(fake.city())
     print(fake.zipcode())
-else:
-    input("What would you like me to generate then? dates or different times or places")
