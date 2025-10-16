@@ -1,9 +1,8 @@
 from faker import Faker
 
 fake = Faker()
-input("Would you like me to generate you an person y/n? ")
-y = input
-if input == y:
+y = input("Would you like me to generate you an person y/n? ")
+if y == "y":
     print(fake.name())
     print(fake.job())
     print(fake.date())
@@ -11,3 +10,5 @@ if input == y:
     print(fake.state())
     print(fake.city())
     print(fake.zipcode())
+else:
+    print("Ok")
