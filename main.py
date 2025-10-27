@@ -12,4 +12,8 @@ if y == "yes":
     print(fake.city())
     print(fake.zipcode())
 else:
-    print("What would like me to generate then so examples random dates,times or even phone numbers  ")
+    print("What would like me to generate then here are some examples I can do random dates ⏱️, time's ⌛ or even phone numbers 📞")
+input("date's/dates/date").lower
+input("time's/times/time").lower
+input("phone number's/phone numbers/phone number").lower
+input("")
