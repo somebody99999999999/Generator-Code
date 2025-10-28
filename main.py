@@ -3,10 +3,17 @@ from faker import Faker # installing faker and importing it into the code
 fake = Faker()
 print("Hello and welcome to my random name generator")
 print("Are you a female or male")
-input("")
+m = input("")
+if m == "male":
+    print("Good to know that your a male/man")
+else:
+    print("Good to know that your a female/woman")
 print("What is your name")
-input("")
-
+name = input("")
+if name == "john":
+    print("Your new name is now Johnson")
+else:
+    print("")
 
 
 
